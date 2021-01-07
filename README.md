@@ -40,17 +40,22 @@ https://mvoorberg.github.io/mycorabella-ico/ms-icon-70x70.png
 # Code
 Using the how-to article and the icons provided, here's what the html looks like. I left out a few that didn't match provided sizes. Apps should find a fallback if their preference isn't listed.
 ```xml
-<link rel="icon" type="image/png" href="https://mvoorberg.github.io/mycorabella-ico/favicon-16x16.png" sizes="16x16">
-<link rel="icon" type="image/png" href="https://mvoorberg.github.io/mycorabella-ico/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="https://mvoorberg.github.io/mycorabella-ico/favicon-96x96.png" sizes="96x96">
+<link rel="icon" sizes="16x16" type="image/png" href="https://mvoorberg.github.io/mycorabella-ico/favicon-16x16.png">
+<link rel="icon" sizes="32x32" type="image/png" href="https://mvoorberg.github.io/mycorabella-ico/favicon-32x32.png">
+<link rel="icon" sizes="96x96" type="image/png" href="https://mvoorberg.github.io/mycorabella-ico/favicon-96x96.png">
+
+<link rel="icon" sizes="70x70" href="https://mvoorberg.github.io/mycorabella-ico/ms-icon-70x70.png">
+<link rel="icon" sizes="150x150" href="https://mvoorberg.github.io/mycorabella-ico/ms-icon-150x150.png">
+<link rel="icon" sizes="310x310" href="https://mvoorberg.github.io/mycorabella-ico/ms-icon-310x310.png">
 
 <link rel="apple-touch-icon" href="https://mvoorberg.github.io/mycorabella-ico/apple-icon-120x120.png">
 <link rel="apple-touch-icon" sizes="180x180" href="https://mvoorberg.github.io/mycorabella-ico/apple-icon-180x180.png">
 <link rel="apple-touch-icon" sizes="152x152" href="https://mvoorberg.github.io/mycorabella-ico/apple-icon-152x152.png">
 
-<link rel="apple-touch-icon" sizes="70x70" href="https://mvoorberg.github.io/mycorabella-ico/ms-icon-70x70.png">
-<link rel="apple-touch-icon" sizes="150x150" href="https://mvoorberg.github.io/mycorabella-ico/ms-icon-150x150.png">
-<link rel="apple-touch-icon" sizes="310x310" href="https://mvoorberg.github.io/mycorabella-ico/ms-icon-310x310.png">
+<link rel="manifest" href="https://mvoorberg.github.io/mycorabella-ico/manifest.json">
+  
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-config" content="https://mvoorberg.github.io/mycorabella-ico/browserconfig.xml">
 ```
 
 
